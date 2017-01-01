@@ -1,0 +1,27 @@
+.team-details-container {
+  display: flex;
+  height: 100%;
+  padding: 10px 2%;
+  align-items: flex-start;
+  justify-content: space-between;
+  .team-details {
+    .team-logo {
+      height: 300px;
+      width: 300px;
+    }
+    .team-name {
+      text-align: center;
+      font-size: 2rem;
+    }
+  }
+  .players-list {
+    table {
+      text-align: left;
+      border-collapse: collapse;
+      th,td {
+        padding: 2px 5px;
+        border-bottom: 1px solid gray;
+      }
+    }
+  }
+}

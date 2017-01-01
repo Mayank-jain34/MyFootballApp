@@ -1,0 +1,13 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: url(imgs/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color : white;
+  //overflow: hidden;
+  #root {
+    height: 100%;
+  }
+}

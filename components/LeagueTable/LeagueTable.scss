@@ -1,0 +1,23 @@
+.league-table {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  table {
+    text-align: center;
+    border-collapse: collapse;
+    color: white;
+    tr > td:nth-of-type(2){
+      text-align: left;
+      cursor: pointer;
+      &:hover{
+        color: blue;
+      }
+    }
+    th,td {
+      font-size: 1.2rem;
+      padding: 2px 4px;
+      border-bottom: 1px solid gray;
+    }
+  }
+}

@@ -1,0 +1,48 @@
+.home-container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  padding: 8%;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  & > div.tile {
+    display: inline-block;
+    height: 200px;
+    width: 32%;
+    margin: 5px;
+    transition: transform .3s;
+    &:hover {
+      transform: scale(1.1,1.1);
+      z-index: 1;
+      box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    }
+  }
+  & .epl{
+    background: url('../../imgs/epl.jpg') no-repeat center center;
+    background-size: cover;
+  }
+  & .laliga{
+    background: url('../../imgs/laliga.jpg') no-repeat center center;
+    background-size: cover;
+  }
+  & .bundesliga{
+    background: url('../../imgs/bundesliga.jpg') no-repeat center center;
+    background-size: cover;
+  }
+  & .seriaA{
+    background: url('../../imgs/seriaA.jpg')  no-repeat center center;
+    background-size: cover;
+  }
+  & .ligue1{
+    background: url('../../imgs/ligue1.jpg')  no-repeat center center;
+    background-size: cover;
+  }
+  & .see-all{
+    font-size: xx-large;
+    color: #c6cbd0;
+    text-align: center;
+    line-height: 200px;
+  }
+}
